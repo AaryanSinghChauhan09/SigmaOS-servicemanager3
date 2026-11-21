@@ -6,6 +6,9 @@
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
 
+/// Service management module.
+pub mod sigmaservicemanager3;
+
 /// Errors raised by this component.
 #[derive(Debug, thiserror::Error)]
 pub enum ComponentError {
